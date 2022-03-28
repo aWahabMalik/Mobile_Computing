@@ -22,17 +22,22 @@ header{
 .heading{
     text-align: center;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .bHeader{
     font-size: 28px;
     font-weight: normal;
+    margin-top: 16px;
 }
 
 .txt{
     padding: 15px;
     font-size: 18px;
+}
+
+.LecPics{
+    margin-left: 20%; 
 }
 
 .txt ul{
