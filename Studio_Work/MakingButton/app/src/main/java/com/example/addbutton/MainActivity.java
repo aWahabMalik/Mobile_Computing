@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclickButton(View view){
         TextView textView = findViewById(R.id.textView);
-        textView.setText("Hello Wahab");
+        TextView textView2 = findViewById(R.id.txtEnterName);
+        textView.setText("Hello " + textView2.getText().toString());
     }
 }
