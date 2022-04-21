@@ -123,4 +123,19 @@ public class MainActivity extends AppCompatActivity {
         newOp = true;
         isOperatorcalled = false;
     }
+
+    //AC Clicked
+    public void acClick(View view){
+        finalres.setText("");
+        miniAns.setText("");
+        newOp = true;
+        isOperatorcalled = false;
+        operation = "";
+        lastNum = "";
+    }
+
+    // C Clicked
+    public void cClick(View view){
+        finalres.setText("");
+    }
 }
