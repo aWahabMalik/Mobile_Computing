@@ -13,12 +13,13 @@ public class MainActivity extends AppCompatActivity {
     boolean newOp = true;
     String operation = "";
     String lastNum = "";
+    TextView miniAns;
     TextView finalres;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        miniAns = findViewById(R.id.miniAns);
         finalres = findViewById(R.id.finalAns);
     }
 
@@ -72,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
 
     //operator Clicked
     public void operatorClick(View view){
+        if (isOperatorcalled){
+            equalClicked(view);
+        }
         newOp = true;
         switch (view.getId()){
             case R.id.bPlus:
@@ -88,7 +92,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         lastNum = finalres.getText().toString();
+        miniAns.setText(lastNum + " " + operation);
         finalres.setText("");
+        isOperatorcalled = true;
     }
 
     //Equal Clicked
@@ -111,7 +117,10 @@ public class MainActivity extends AppCompatActivity {
                 result = lastNumber / currentNumber;
                 break;
         }
+        lastNumber = result;
         finalres.setText(String.valueOf(result));
+        miniAns.setText(lastNum + " " + operation + " " + currentNumber);
         newOp = true;
+        isOperatorcalled = false;
     }
 }
