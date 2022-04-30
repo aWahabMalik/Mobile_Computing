@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="github.css">
+    <link rel="icon" href="Pictures\GitHubIcon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <title>Github Tutorial</title>
+</head>
+<body>
+    <header>
+        <span id="logo">   <img style = "width: 5%;" src="Pictures\GitHubH.png" alt="Not available">   </span>
+        <span id="txtimg"> <img  style="width : 11%;"  src="Pictures\GitHubT.png" alt="Not available"> </span>
+    </header>
+    <div class="container">
+        
+        
+        <div id="vcs">
+            <div class="heading">
+                <h3>Version Control System</h3>
+            </div>
+            <div class="body">
+                <div class="bHeader"> What is VCS: </div>
+                <div class="txt">
+                    <p> Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Using a VCS also generally means that if you screw things up or lose files, you can easily recover.<p>
+                </div>
+                <div class="bHeader">Why do we need it: </div>
+                <div class="txt">
+                    <ul>
+                        <li>To keep track of changes to a file or set of files.</li>
+                        <li>To prevent data loss.</li>
+                        <li>To prevent data corruption.</li>
+                        <li>To revert back to old version.</li>
+                        <li>To test changes without losing original files</li>
+                        <li>To make same code available to all members working on a project.</li>
+                    </ul>
+                    <p style = "padding-top: 15px;">Now we know about the VCS. Lets practically dive into it. But, before starting kindly understand that these notes are made in step by step format. Steps with screenshots are attached with proper explanation. Just follow the steps and you will get everything done.
+                    </p>
+            </div>
+        </div>
+
+
+        <div class="commands">
+            <div class="heading"><h3>Some Starting Commands</h3></div>
+            <div class="bHeader"> Git Simple Commands: </div>
+            <div class="txt">
+                <ul>
+                    <li>git init</li>
+                    <li>git add</li>
+                    <li>git commit</li>
+                    <li>git status</li>
+                    <li>git push</li>
+                    <li>git pull</li>
+                </ul>
+            </div>
+
+            <div class = "bHeader">git init</div>
+            <div class="txt">
+                The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/2.png" alt="Not available"></div>
+            </div>
+
+            <div class = "bHeader">git status</div>
+            <div class="txt">
+                The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/status.png" alt="Not available"></div>
+            </div>
+            
+            <div class = "bHeader">git add</div>
+            <div class="txt">
+                        The git add command is used to add file contents to the Index (Staging Area).This command updates the current content of the working tree to the staging area. It also prepares the staged content for the next commit. Every time we add or update any file in our project, it is required to forward updates to the staging area.
+                        The git add command is a core part of Git technology. It typically adds one file at a time, but there some options are available that can add more than one file at once.
+                        The "index" contains a snapshot of the working tree data. This snapshot will be forwarded for the next commit.
+                        The git add command can be run many times before making a commit. These all add operations can be put under one commit. The add command adds the files that are specified on command line.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/add.png" alt="Not available"></div>
+            </div>
+
+            <div class = "bHeader">git commit</div>
+            <div class="txt">
+                    The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of git commit, The git add command is used to promote or 'stage' changes to the project that will be stored in a commit. These two commands git commit and git add are two of the most frequently used.
+            </div>
+
+            <div class = "bHeader">git push</div>
+            <div class="txt">
+                The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
+            </div>
+
+            <div class = "bHeader">git pull</div>
+            <div class="txt">
+                The git pull command is used to download remote repository content to a local repository. Pulling is how you transfer commits from a remote repository to your local repository.
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="heading"><h3>Cloning A Repository</h3></div>
+            <div class = "bHeader">git clone</div>
+            <div class="txt">
+                git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/clone1.png" alt="Not available"></div>
+                <br><br>
+                <div><img style = "width: 72%;" src="LecPics/clone2.png" alt="Not available"></div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            
+            <div class="heading"><h3>Branching in git</h3></div>
+            <div class = "bHeader">Branching</div>
+            <div class="txt">
+                Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.When you create a repository with content on GitHub.com, GitHub creates the repository with a single branch. This first branch in the repository is the default branch. The default branch is the branch that GitHub displays when anyone visits your repository.
+                <ul>
+                    <li>branch</li>
+                    <li>merge</li>
+                    <li>checkout</li>
+                </ul>
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/branching1.png" alt="Not available"></div>
+            </div>
+
+            <div class = "bHeader">git branch</div>
+            <div class="txt">
+                The git branch command is used to create a new branch. It is also used to show all the branches used.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/branch1.png" alt="Not available"></div>
+            </div>
+
+
+            <div class = "bHeader">git branch -a</div>
+            <div class="txt">
+                The git branch -a command is used to list all the branches used.(Local and Remote). 
+            </div>
+
+            <div class = "bHeader">git branch [branch_name]</div>
+            <div class="txt">
+                The git branch command is used to create a new branch. It is also used to show all the branches used. 
+            </div>
+
+            <div class = "bHeader">git branch -d [branch_name]</div>
+            <div class="txt">
+                This git command is used to delete the existing branch.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/delete1.png" alt="Not available"></div>
+            </div>
+
+            <div class = "bHeader">git checkout -b [branch_name]</div>
+            <div class="txt">
+                The git checkout command is used to create a new branch and switch to it.
+            </div>
+            <div class="LecPics">
+                <div><img style = "width: 72%;" src="LecPics/checkout1.png" alt="Not available"></div>
+            </div>
+
+            <div class = "bHeader">git checkout [branch_name]<div>
+            <div class="txt">
+                This git command is used to switch to other branch.
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

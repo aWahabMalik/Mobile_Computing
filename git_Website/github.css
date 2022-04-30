@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+}
+header{
+    background-color : #24292f;
+    padding: 9px;
+    padding-left: 45%;
+}
+
+#txtimg{
+    margin-left: 1%;
+}
+
+.container{
+    padding: 15px;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bHeader{
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 16px;
+}
+
+.txt{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.LecPics{
+    margin-left: 20%; 
+}
+
+.txt ul{
+    padding-left: 59px;
+}
