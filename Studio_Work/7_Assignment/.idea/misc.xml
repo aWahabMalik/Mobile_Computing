@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ABDUL_UNI/6th Semester/MC/Git_repo/Mobile_Computing/Studio_Work/7_Assignment/app/src/main/res/layout/activity_img.xml" value="0.22826086956521738" />
-        <entry key="..\:/ABDUL_UNI/6th Semester/MC/Git_repo/Mobile_Computing/Studio_Work/7_Assignment/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout-land/activity_lesson2.xml" value="0.264" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout-land/activity_list.xml" value="0.31666666666666665" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout-land/activity_main.xml" value="0.2625" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout-land/activity_quiz.xml" value="0.43243243243243246" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/activity_lesson.xml" value="0.25" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/activity_lesson2.xml" value="0.25" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/activity_quiz.xml" value="0.264" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/content_scrolling.xml" value="0.25" />
+        <entry key="..\:/Android_Assignments/Children_App/app/src/main/res/layout/customized.xml" value="0.25" />
       </map>
     </option>
   </component>

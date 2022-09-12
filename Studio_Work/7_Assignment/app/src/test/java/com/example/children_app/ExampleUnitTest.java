@@ -1,4 +1,4 @@
-package com.example.assignment;
+package com.example.children_app;
 
 import org.junit.Test;
 
